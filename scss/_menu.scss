@@ -7,8 +7,8 @@
   cursor: pointer;
   @include easeOut;
   .btn-line {
-    width: 28px;
-    height: 3px;
+    width: 29px;
+    height: 4px;
     margin: 0 0 5px 0;
     background: set-text-color($primary-color); // #fff;
     @include easeOut;
@@ -34,6 +34,8 @@
     }
   }
 }
+
+//menu overlay
 .menu {
   position: fixed;
   top: 0;
@@ -57,7 +59,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: darken($primary-color, 6);
     list-style-type: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -68,7 +70,7 @@
   }
   //branding slide
   &-branding {
-    background: $primary-color;
+    background: $primary-color; //darken($primary-color, 6); //
     transform: translate3d(0, 100%, 0);
     @include easeOut;
     &.show {
@@ -76,8 +78,8 @@
       transform: translate3d(0, 0, 0);
     }
     .portrait {
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       background: url("../images/portrait.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;

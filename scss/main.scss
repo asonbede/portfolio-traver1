@@ -13,15 +13,17 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
-//header
+//headings
 h1,
-h2 {
+h2,
+h3 {
   margin: 0;
   font-weight: 400;
   &.lg-heading {
     font-size: 6rem;
   }
   &.sm-heading {
+    border-radius: 0.4rem;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
@@ -38,6 +40,7 @@ header {
 }
 .text-secondary {
   color: $secondary-color;
+  font-weight: 700;
 }
 main {
   padding: 4rem;
@@ -76,7 +79,7 @@ main {
   }
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .job-1 {
@@ -134,7 +137,7 @@ main {
   }
 }
 
-//btn styles
+//btn styles, .btn class not attached to any element.
 .btn {
   display: block;
   padding: 0.5rem 1rem;

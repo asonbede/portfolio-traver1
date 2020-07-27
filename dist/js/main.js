@@ -4,6 +4,18 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
+// const bgImage = document.querySelector("#bg-image");
+// console.log(bgImage, "++--");
+// const bgImagearray = [
+//   "url(../images/background0.jpg)",
+//   "url(../images/background1.jpg)",
+//   "url(../images/background2.jpg)",
+// ];
+// const randomNum = Math.floor(Math.random() * bgImagearray.length);
+// document.body.background = bgImagearray[randomNum];
+// bgImage.backgroundColor = "#444";
+// bgImage.backgroundAttachment = "fixed";
+// bgImage.backgroundSize = "cover";
 
 //set initial menu state of menu
 let showMenu = false;
